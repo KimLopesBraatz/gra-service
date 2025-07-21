@@ -38,7 +38,7 @@ If you have another versions of Java installed on your OS, execute command below
 ## How to run
 1. Alter path to read csv file in `src/main/resources/application.properties`:
 ```properties
-    gra.file.path=[epecify_path_to_read_file]/movielist.csv
+    csv.path=[epecify_path_to_read_file]/movielist.csv
  ```
 2. Run application
 ```shell
