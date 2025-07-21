@@ -19,7 +19,7 @@ public class ProducerController {
     @Autowired
     private final ProducerUseCases producerUseCases;
 
-    @GetMapping("/intervals")
+    @GetMapping("/winning-intervals")
     @ResponseBody
     public ResponseEntity<ProducerResponse> getProducersIntervals() {
 
