@@ -9,6 +9,7 @@ Application gra-service is responsible for:
 ## Built with
 [![Java][Java]](https://www.java.com/)
 [![Spring][spring-shield]](https://spring.io/)
+[![H2 Database][h2-database-shield]](https://www.h2database.com/html/main.html)
 [![Gradle][gradle-shield]](https://gradle.org/)
 
 ## Getting started
@@ -46,6 +47,8 @@ If you have another versions of Java installed on your OS, execute command below
 ```
 3. Access API at `http://localhost:8080/api/v1/producers/winning-intervals`
 
+4. Access H2 Database at `http://localhost:8080/h2-console/`
+
 
 ## How to contribute
 1. Create a Feature Branch (`git checkout -b feature/[your_feat]`)
@@ -57,3 +60,4 @@ If you have another versions of Java installed on your OS, execute command below
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [spring-shield]: https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white
 [gradle-shield]: https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white
+[h2-database-shield]: https://img.shields.io/badge/H2-00B2A9?style=for-the-badge&logo=h2database&logoColor=white
